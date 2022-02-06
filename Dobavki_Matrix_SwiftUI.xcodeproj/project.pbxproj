@@ -11,6 +11,8 @@
 		751F318D27AF9B0A00924D92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F318C27AF9B0A00924D92 /* ContentView.swift */; };
 		751F318F27AF9B0C00924D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F318E27AF9B0C00924D92 /* Assets.xcassets */; };
 		751F319227AF9B0C00924D92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 751F319127AF9B0C00924D92 /* Preview Assets.xcassets */; };
+		751F319C27AF9BBB00924D92 /* MatrixRainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 751F319B27AF9BBB00924D92 /* MatrixRainView.swift */; };
+		751F319E27AF9EF700924D92 /* matrixcodenfi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 751F319D27AF9EF700924D92 /* matrixcodenfi.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,9 @@
 		751F318C27AF9B0A00924D92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		751F318E27AF9B0C00924D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		751F319127AF9B0C00924D92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		751F319B27AF9BBB00924D92 /* MatrixRainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixRainView.swift; sourceTree = "<group>"; };
+		751F319D27AF9EF700924D92 /* matrixcodenfi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = matrixcodenfi.ttf; sourceTree = "<group>"; };
+		751F319F27AF9F4300924D92 /* Dobavki-Matrix-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dobavki-Matrix-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +40,7 @@
 		751F317E27AF9B0A00924D92 = {
 			isa = PBXGroup;
 			children = (
+				751F319D27AF9EF700924D92 /* matrixcodenfi.ttf */,
 				751F318927AF9B0A00924D92 /* Dobavki_Matrix_SwiftUI */,
 				751F318827AF9B0A00924D92 /* Products */,
 			);
@@ -51,7 +57,9 @@
 		751F318927AF9B0A00924D92 /* Dobavki_Matrix_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				751F319F27AF9F4300924D92 /* Dobavki-Matrix-SwiftUI-Info.plist */,
 				751F318A27AF9B0A00924D92 /* Dobavki_Matrix_SwiftUIApp.swift */,
+				751F319A27AF9B6C00924D92 /* View */,
 				751F318C27AF9B0A00924D92 /* ContentView.swift */,
 				751F318E27AF9B0C00924D92 /* Assets.xcassets */,
 				751F319027AF9B0C00924D92 /* Preview Content */,
@@ -65,6 +73,14 @@
 				751F319127AF9B0C00924D92 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		751F319A27AF9B6C00924D92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				751F319B27AF9BBB00924D92 /* MatrixRainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				751F319E27AF9EF700924D92 /* matrixcodenfi.ttf in Resources */,
 				751F319227AF9B0C00924D92 /* Preview Assets.xcassets in Resources */,
 				751F318F27AF9B0C00924D92 /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				751F318D27AF9B0A00924D92 /* ContentView.swift in Sources */,
+				751F319C27AF9BBB00924D92 /* MatrixRainView.swift in Sources */,
 				751F318B27AF9B0A00924D92 /* Dobavki_Matrix_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +290,7 @@
 				DEVELOPMENT_TEAM = 3NDPBHQ9PJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dobavki-Matrix-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +320,7 @@
 				DEVELOPMENT_TEAM = 3NDPBHQ9PJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dobavki-Matrix-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
